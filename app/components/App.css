@@ -1,0 +1,65 @@
+.app-container {
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+    color: #555;
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.board {
+    display: flex;
+    max-width: 24rem;
+    max-height: 24rem;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1rem auto 1rem auto;
+}
+
+.cell {
+    max-height: 7rem;
+    max-width: 7rem;
+    height: 30%;
+    width: 30%;
+    border: 2px solid #ddd;
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell:hover {
+    cursor: pointer;
+    background-color: #921;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.reset {
+    margin-right: 1rem;
+}
+
+.winner {
+    text-align: center;
+    color: #0CC90C;
+}
+
+.loser {
+    text-align: center;
+    color: #921;
+}
